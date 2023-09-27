@@ -6,7 +6,7 @@ public class PR123sobreescriu {
     
 public static void main(String[] args) throws InterruptedException, IOException{
 
-    String basePath = System.getProperty("user.dir") + "/Project/data/";
+    String basePath = System.getProperty("user.dir") + "/PR1.2-AlexPozas/Project/data/";
     File f1 = new File(basePath + "frasesMatrix.txt");
     boolean arxiuCreat = f1.createNewFile();
     if (arxiuCreat) {

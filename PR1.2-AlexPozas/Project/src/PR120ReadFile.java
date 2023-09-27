@@ -7,7 +7,7 @@ import java.util.*;
 public class PR120ReadFile {
   public static void main(String args[]) {
         int lineNumber = 1;
-        String basePath = System.getProperty("user.dir") + "/Project/data/";
+        String basePath = System.getProperty("user.dir") + "/PR1.2-AlexPozas/Project/data/";
         String fileName = "Arxiu.txt";
         String filePath = basePath + fileName;
 
