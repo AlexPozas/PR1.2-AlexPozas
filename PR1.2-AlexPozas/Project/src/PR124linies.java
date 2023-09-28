@@ -26,7 +26,6 @@ public class PR124linies {
            myWriter.write(String.valueOf(Math.floor(Math.random()*(10-1+1)+1))); 
             myWriter.write("\n");
         }
-    
            myWriter.close();
            System.out.println("Successfully wrote to the file.");
          } catch (IOException e) { e.printStackTrace(); }
