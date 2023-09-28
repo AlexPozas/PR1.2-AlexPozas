@@ -37,7 +37,6 @@ public class Main {
           case 4: PR123append.main(args); break;
           case 5: PR124linies.main(args); break;
           case 6: PR125cp.main(args); break;
-          // Adapta aquí les altres classes de l’exercici (PR122cat…)
           case 100: running = false; break;
           default: break;
         }

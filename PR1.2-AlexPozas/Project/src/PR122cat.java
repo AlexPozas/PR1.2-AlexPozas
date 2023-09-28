@@ -10,29 +10,24 @@ public class PR122cat {
         File fRuta = new File(ruta);
         if (fRuta.exists()) {
             if (fRuta.isDirectory()){System.out.println("Es un directorio");
-            System.out.println("");
-        }
+            System.out.println("");}
             else {
                 File file = new File(ruta);
-
                 Scanner scnr;
                 try {
                     scnr = new Scanner(fRuta);
                     while(scnr.hasNextLine()){
-                
-                        String line = scnr.nextLine();
+                    String line = scnr.nextLine();
                     System.out.println(" linia "+line);
                     System.out.println("");
                     } 
                     } catch (FileNotFoundException e) {
                     e.printStackTrace();
-                                    }}
-        }
+                                    }}}
         else{
             System.out.println("OJO: ¡¡No existe la ruta!!");
             System.out.println("");
         }
-
     }
     static public String llegirLinia (String text) {
                 System.out.print(text);

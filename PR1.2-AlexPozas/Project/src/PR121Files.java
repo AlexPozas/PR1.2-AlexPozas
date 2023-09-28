@@ -6,20 +6,15 @@ import java.util.concurrent.TimeUnit;
 
 public class PR121Files {
 
-
-  // Mainhj
   public static void main(String[] args) throws InterruptedException, IOException {
     String basePath = System.getProperty("user.dir") + "/PR1.2-AlexPozas/Project/myFiles/";
-        
 
-        // Crear la carpeta 'myFiles' si no existeix
         File dir = new File(basePath);
         if (!dir.exists()){
             if(!dir.mkdirs()) {
                 System.out.println("Error en la creació de la carpeta 'myFiles'");
             }
         }
-
         System.out.println("");
             // Crear un arxiu
             File f1 = new File(basePath + "file1.txt");
@@ -44,8 +39,6 @@ public class PR121Files {
             f2.renameTo(f2new);
             System.out.println("file2 canviat de nombre a renamedFile");
             System.out.println(" ");
-
-            
 
             String[] listado = dir.list();
             if (listado == null || listado.length == 0) {
