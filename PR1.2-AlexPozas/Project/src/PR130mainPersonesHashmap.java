@@ -50,10 +50,10 @@ public class PR130mainPersonesHashmap {
             e.printStackTrace();
         }    finally {
             try {
-                if(fileOutputStream!=null){ fileOutputStream.close(); }
-                if(dataOutputStream!=null){ dataOutputStream.close(); }
-                if(fileInputStream!=null){ fileInputStream.close(); }
-                if(dataInputStream!=null){ dataInputStream.close(); }
+                if(fileOutputStream!=null){ fileOutputStream.close();}
+                if(dataOutputStream!=null){ dataOutputStream.close();}
+                if(fileInputStream!=null){ fileInputStream.close();}
+                if(dataInputStream!=null){ dataInputStream.close();}
             } catch (Exception e) {
                 e.printStackTrace();
     }
