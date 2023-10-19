@@ -24,9 +24,12 @@ public class Main {
       menu = menu + "\n 6) PR125cp";
       menu = menu + "\n 7) PR131mainEscriu";
       menu = menu + "\n 8) PR131mainLlegeix";
-      menu = menu + "\n9) PR132main";
-      menu = menu + "\n10) PR133mainTreballadors";
-      menu = menu + "\n11) PR134treballadors";
+      menu = menu + "\n 9) PR132main";
+      menu = menu + "\n 10) PR133mainTreballadors";
+      menu = menu + "\n 11) PR134treballadors";
+      menu = menu + "\n 12) PR140Main";
+      menu = menu + "\n 13) PR141Main";
+      menu = menu + "\n 14) PR142Main";
 
       // Adapta aquí les altres classes de l’exercici (PR122cat…)
       menu = menu + "\n 100) Sortir";
@@ -48,6 +51,9 @@ public class Main {
           case 9: PR132main.main(args); break;
           case 10: PR133mainTreballadors.main(args); break; 
           case 11: PR134treballadors.main(args); break;
+          case 12: PR140Main.main(args); break;
+          case 13: PR141Main.main(args); break;
+          case 14: PR142Main.main(args); break;
           case 100: running = false; break;
           default: break;
         }
